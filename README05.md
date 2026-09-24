@@ -1,6 +1,8 @@
 EJERCICIO 5.
-ESTACIONAMIENTO UNIVERSITAO
+ESTACIONAMIENTO UNIVERSITARIO
+
 OBJETIVO
+
 Desarrollar un programa que permita registrar y controlar los vehículos que utilizan un estacionamiento universitario, calculando el costo según el tipo de vehículo y las horas estacionadas, y generando un reporte final con la cantidad de vehículos, el total recaudado y el promedio pagado. Además, se busca practicar el uso de estructuras de control como do-while y switch, junto con contadores, acumuladores y validación de datos.
 
 2) ANALISIS
@@ -136,12 +138,19 @@ FinAlgoritmo
 
 6 .Estructuras utilizadas 
 do-while → Para registrar varios vehículos hasta que el usuario decida terminar.
+
 switch → Para seleccionar el tipo de vehículo y asignar su tarifa.
+
 if → Para validar que las horas estacionadas sean mayores que cero.
+
 Contadores → Para contar motocicletas, automóviles, camionetas y el total de vehículos.
+
 Acumuladores → Para sumar el dinero recaudado.
+
 Variables → Para almacenar tipo de vehículo, horas, tarifa y pago.
+
 Operaciones aritméticas → Para calcular el pago y el promedio.
+
 
 CASOS DE PRUEBA
 | Caso | Tipo de vehículo | Horas | Resultado esperado                           |
@@ -154,8 +163,14 @@ CASOS DE PRUEBA
 | 6    | Camioneta        |    -2 | **Error:** las horas deben ser mayores que 0 |
 | 7    | Tipo inválido    |     3 | **Error:** seleccionar un tipo válido        |
 
+
 CAPTURAS O EVIDENCIAS
 <img width="803" height="439" alt="WhatsApp Image 2026-09-24 at 12 24 07 PM" src="https://github.com/user-attachments/assets/fb171e88-41cf-4af1-9e3a-807374d99eb9" />
+
+
+
+
+
 CONCLUSIONES
 Conclusiones
 Se logró desarrollar un programa para controlar el ingreso de vehículos a un estacionamiento y calcular el valor a pagar.
