@@ -165,7 +165,13 @@ CASOS DE PRUEBA
 
 
 CAPTURAS O EVIDENCIAS
+
+
+
+
+
 <img width="803" height="439" alt="WhatsApp Image 2026-09-24 at 12 24 07 PM" src="https://github.com/user-attachments/assets/fb171e88-41cf-4af1-9e3a-807374d99eb9" />
+
 
 
 
