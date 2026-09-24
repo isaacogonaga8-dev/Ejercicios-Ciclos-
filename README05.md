@@ -1,9 +1,9 @@
-<img width="938" height="1283" alt="image" src="https://github.com/user-attachments/assets/37dabc4c-90da-4c15-97ed-0dca148393aa" /><img width="2720" height="5456" alt="diagrama de flujo 5" src="https://github.com/user-attachments/assets/682f82f6-42ed-4210-aa5b-552fb7af9357" />EJERCICIO 5. ESTACIONAMIENTO UNIVERSITARIO
+EJERCICIO 5. ESTACIONAMIENTO UNIVERSITAO
 OBJETIVO
 Desarrollar un programa que permita registrar y controlar los vehículos que utilizan un estacionamiento universitario, calculando el costo según el tipo de vehículo y las horas estacionadas, y generando un reporte final con la cantidad de vehículos, el total recaudado y el promedio pagado. Además, se busca practicar el uso de estructuras de control como do-while y switch, junto con contadores, acumuladores y validación de datos.
+
 2) ANALISIS
 DESCRIPCIÓN DEL ANÁLISIS DEL PROBLEMA
-
 El programa permitirá registrar varios vehículos que ingresan al estacionamiento. Primero se seleccionará el tipo de vehículo mediante un menú y se ingresarán las horas estacionadas.
 Mediante un switch se determinará la tarifa correspondiente. Después se calculará el pago multiplicando la tarifa por las horas.
 Se utilitazaran contadores para conocer cuántas motocicletas, automóviles y camionetas fueron registradas, y un acumulador para obtener el total recaudado.
@@ -132,6 +132,26 @@ FinAlgoritmo
 5. DIAGRAMA DE FLUJO
 
 <img width="653" height="880" alt="image" src="https://github.com/user-attachments/assets/33bf5696-f7cf-4f2e-88d9-abbcb1919ade" />
+
+6 .Estructuras utilizadas 
+do-while → Para registrar varios vehículos hasta que el usuario decida terminar.
+switch → Para seleccionar el tipo de vehículo y asignar su tarifa.
+if → Para validar que las horas estacionadas sean mayores que cero.
+Contadores → Para contar motocicletas, automóviles, camionetas y el total de vehículos.
+Acumuladores → Para sumar el dinero recaudado.
+Variables → Para almacenar tipo de vehículo, horas, tarifa y pago.
+Operaciones aritméticas → Para calcular el pago y el promedio.
+
+CASOS DE PRUEBA
+| Caso | Tipo de vehículo | Horas | Resultado esperado                           |
+| ---- | ---------------- | ----: | -------------------------------------------- |
+| 1    | Motocicleta      |     2 | Paga **$1.00**                               |
+| 2    | Automóvil        |     3 | Paga **$3.00**                               |
+| 3    | Camioneta        |     4 | Paga **$6.00**                               |
+| 4    | Motocicleta      |     5 | Paga **$2.50**                               |
+| 5    | Automóvil        |     0 | **Error:** las horas deben ser mayores que 0 |
+| 6    | Camioneta        |    -2 | **Error:** las horas deben ser mayores que 0 |
+| 7    | Tipo inválido    |     3 | **Error:** seleccionar un tipo válido        |
 
 
 
