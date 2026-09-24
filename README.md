@@ -1,7 +1,7 @@
 # Ejercicio 1. Control de calificaciones
 
 ## Integrantes
-- Betancourt Steven
+- Betancourt Steven 
 - Ogonaga Isaac 
 - Terán Julio 
 
