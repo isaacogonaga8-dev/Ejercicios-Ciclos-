@@ -341,9 +341,3 @@ contadores y acumuladores para desarrollar un cajero automático funcional. Adem
 retiros y opciones ingresadas por el usuario. Con ello, se fortaleció la **lógica de programación, el manejo de datos y la creación de programas interactivos y confiables.
 
 
-
-
-
-
-
-
