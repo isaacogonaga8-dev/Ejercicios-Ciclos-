@@ -292,6 +292,49 @@ CAPTURAS O EVIDENCIAS
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 CONCLUSION
 En conclusión, este ejercicio permitió aplicar estructuras fundamentales de programación como **`do-while`**, **`switch`**,
 contadores y acumuladores para desarrollar un cajero automático funcional. Además, las validaciones permiten controlar correctamente los depósitos,
