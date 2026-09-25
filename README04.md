@@ -91,12 +91,10 @@ Mostrar resumen final.
 
 
 
-6. Pseudocódigo (PSeInt)
-
-
+PSEUDOCODIGO
 
 Algoritmo CajeroAcademico
-
+   
 	Definir opcion, depositosRealizados, retirosRealizados Como Entero;
 	Definir monto, saldo, totalDepositado, totalRetirado Como Real;
 
