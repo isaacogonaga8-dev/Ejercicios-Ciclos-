@@ -223,8 +223,23 @@ CASOS DE PRUEBA
 
 
 
+
+
+
 CAPTURAS O EVIDENCIAS
 <img width="822" height="875" alt="image" src="https://github.com/user-attachments/assets/45636781-6d74-4cf3-be90-258049749ab2" />
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
