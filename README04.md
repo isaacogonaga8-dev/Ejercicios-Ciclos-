@@ -13,11 +13,18 @@ Salir
 
 
 El usuario inicia con un saldo de $100. El programa debe permanecer activo hasta que se seleccione la opción Salir, validando que:
+
 no se permitan depósitos negativos,
+
 no se permitan retiros negativos,
+
 no se permita retirar más dinero del disponible,
+
 no se acepten opciones inexistentes del menú.
+
 Al finalizar, debe mostrarse un resumen con: depósitos realizados, retiros realizados, total depositado, total retirado y saldo final.
+
+
 
 3. Análisis del problema
 Entradas: opción del menú (entero), monto a depositar o retirar (real).
@@ -27,13 +34,18 @@ Salidas: saldo actual, mensajes de validación, resumen final de movimientos.
 Datos que se deben mantener durante la ejecución:
 
 Variable	Tipo	Función
+
+
 Saldo	Real: Almacena el saldo disponible (inicia en 100)
 
 totalDepositado	Real:	Acumulador de todos los depósitos válidos
 
+
 totalRetirado	Real	:Acumulador de todos los retiros válidos
 
+
 depositosRealizados	Entero:	Contador de depósitos válidos
+
 
 retirosRealizados	Entero	:Contador de retiros válidos
 
@@ -41,26 +53,36 @@ opcion	Entero:	Opción elegida en el menú
 
 monto	Real:	Valor ingresado para depositar/retirar
 
+
+
 Restricciones lógicas: 
-el ciclo debe repetirse mientras la opción sea distinta de 5, y cada operación debe pasar por una validación antes de modificar el saldo.
+El ciclo debe repetirse mientras la opción sea distinta de 5, y cada operación debe pasar por una validación antes de modificar el saldo.
+
 
 4. Algoritmo
 Inicializar saldo = 100, contadores y acumuladores en 0.
 Repetir:
 Mostrar el menú.
+
 Leer la opción.
 Según la opción:
 1: mostrar saldo.
+
 2: leer monto; si es ≤ 0, mostrar error; si no, sumar al saldo, actualizar acumulador y contador.
+
 3: leer monto; si es ≤ 0, mostrar error; si es mayor al saldo, mostrar error de fondos insuficientes; si no, restar del saldo, actualizar acumulador y contador.
+
 4: mostrar depósitos, retiros, totales y saldo.
+
 5: finalizar.
 Otro: mostrar mensaje de opción inválida.
 Repetir el paso 2 hasta que la opción sea 5.
 Mostrar resumen final.
 
 
-5. Pseudocódigo (PSeInt)
+
+
+6. Pseudocódigo (PSeInt)
 Algoritmo CajeroAcademico
 	Definir opcion, depositosRealizados, retirosRealizados Como Entero;
 	Definir monto, saldo, totalDepositado, totalRetirado Como Real;
@@ -136,7 +158,8 @@ FinAlgoritmo
 
 
 
-6. DIAGRAMA DE FLUJO
+
+7. DIAGRAMA DE FLUJO
 <img width="2720" height="2472" alt="diagrama_flujo 4" src="https://github.com/user-attachments/assets/04f9b7f6-420b-40a6-9e50-104c87cc4dd5" />
 
 
@@ -183,8 +206,19 @@ CASOS DE PRUEBA
 |  12 | 2 → 3                  | Depositar $100, retirar $50 | Saldo final **$150**                            | Operaciones consecutivas correctas    |
 
 
+
+
+
+
+
+
 CAPTURAS O EVIDENCIAS
 <img width="822" height="875" alt="image" src="https://github.com/user-attachments/assets/45636781-6d74-4cf3-be90-258049749ab2" />
+
+
+
+
+
 
 
 CONCLUSION
