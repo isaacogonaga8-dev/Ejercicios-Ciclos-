@@ -227,9 +227,7 @@ CASOS DE PRUEBA
 
 
 CAPTURAS O EVIDENCIAS
-<img width="822" height="875" alt="image" src="https://github.com/user-attachments/assets/45636781-6d74-4cf3-be90-258049749ab2" />
-
-
+<img width="602" height="470" alt="image" src="https://github.com/user-attachments/assets/3058db52-900a-4ec1-a50e-d8e847c01562" />
 
 
 
