@@ -92,7 +92,11 @@ Mostrar resumen final.
 
 
 6. Pseudocódigo (PSeInt)
+
+
+
 Algoritmo CajeroAcademico
+
 	Definir opcion, depositosRealizados, retirosRealizados Como Entero;
 	Definir monto, saldo, totalDepositado, totalRetirado Como Real;
 
@@ -168,7 +172,7 @@ FinAlgoritmo
 
 
 
-7. DIAGRAMA DE FLUJO
+8. DIAGRAMA DE FLUJO
 <img width="2720" height="2472" alt="diagrama_flujo 4" src="https://github.com/user-attachments/assets/04f9b7f6-420b-40a6-9e50-104c87cc4dd5" />
 
 
