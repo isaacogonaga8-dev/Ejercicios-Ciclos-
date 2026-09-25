@@ -27,6 +27,8 @@ Al finalizar, debe mostrarse un resumen con: depósitos realizados, retiros real
 
 
 3. Análisis del problema
+
+   
 Entradas: opción del menú (entero), monto a depositar o retirar (real).
 
 Salidas: saldo actual, mensajes de validación, resumen final de movimientos.
