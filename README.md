@@ -3,7 +3,7 @@
 ## Integrantes
 - Betancourt Steven 
 - Ogonaga Isaac 
-- Terán Julio 
+- Terán Julio
 
 ## Objetivo
 Desarrollar un programa en Java que permita ingresar las calificaciones de **N estudiantes** (donde N debe ser mayor que cero y cada calificación debe estar entre 0 y 10) y que determine: el número de estudiantes, la suma de las calificaciones, el promedio general, la cantidad de estudiantes aprobados, la cantidad de reprobados, la nota más alta y la nota más baja.
