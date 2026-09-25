@@ -155,7 +155,7 @@ FinAlgoritmo
 ## Capturas o evidencias
 
 <img width="312" height="386" alt="image" src="https://github.com/user-attachments/assets/a22c044f-6cd8-43e4-8c81-75e1ba18fc37" />
-<img width="281" height="266" alt="image" src="https://github.com/user-attachments/assets/09d7e576-fb26-4e7a-9bee-afd8f1a58a96" />
+<img width="969" height="1007" alt="image" src="https://github.com/user-attachments/assets/40c6361a-1724-46ae-b868-11928c82bebe" />
 
 ## Conclusiones
 
