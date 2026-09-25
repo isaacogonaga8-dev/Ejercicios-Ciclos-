@@ -75,3 +75,111 @@ public class SistemaParqueadero {
                         boletoPerdido = teclado.nextInt();
                     }
                     
+                    // Asignación de tarifas según tipo y rol
+                    switch (tipo) {
+                        case 1: // Automóvil
+                            switch (rol) {
+                                case 1 -> tarifa = 0.50;
+                                case 2 -> tarifa = 0.75;
+                                case 3 -> tarifa = 1.00;
+                            }
+                            break;
+                        case 2: // Motocicleta
+                            switch (rol) {
+                                case 1 -> tarifa = 0.75;
+                                case 2 -> tarifa = 1.00;
+                                case 3 -> tarifa = 1.25;
+                            }
+                            break;
+                        case 3: // Bicicleta
+                            switch (rol) {
+                                case 1 -> tarifa = 1.00;
+                                case 2 -> tarifa = 1.25;
+                                case 3 -> tarifa = 1.50;
+                            }
+                            break;
+                    }
+                    
+                    pago = tarifa * horas;
+                    
+                    if (boletoPerdido == 1) {
+                        pago += 5.0;
+                    }
+                    
+                    // Acumuladores e incrementos
+                    vehiculosRegistrados++;
+                    totalHoras += horas;
+                    totalRecaudado += pago;
+                    cantidadTipo[tipo]++;
+                    cantidadRol[rol]++;
+                    
+                    // Control de máximos y mínimos
+                    if (pago > mayorValor) {
+                        mayorValor = pago;
+                    }
+                    
+                    if (vehiculosRegistrados == 1) {
+                        menorValor = pago;
+                    } else if (pago < menorValor) {
+                        menorValor = pago;
+                    }
+                    
+                    System.out.println("\nVehiculo registrado correctamente.");
+                    System.out.printf("Valor a pagar: $%.2f\n\n", pago);
+                    break;
+                    
+                case 2:
+                    System.out.println("\nVEHICULOS REGISTRADOS");
+                    System.out.println("Total de vehiculos: " + vehiculosRegistrados);
+                    System.out.println("Automoviles: " + cantidadTipo[1]);
+                    System.out.println("Motocicletas: " + cantidadTipo[2]);
+                    System.out.println("Bicicletas: " + cantidadTipo[3]);
+                    System.out.println();
+                    break;
+                    
+                case 3:
+                    System.out.println("\nESTADISTICAS");
+                    System.out.println("Vehiculos registrados: " + vehiculosRegistrados);
+                    System.out.println("Automoviles: " + cantidadTipo[1]);
+                    System.out.println("Motocicletas: " + cantidadTipo[2]);
+                    System.out.println("Bicicletas: " + cantidadTipo[3]);
+                    System.out.println("Estudiantes: " + cantidadRol[1]);
+                    System.out.println("Docentes: " + cantidadRol[2]);
+                    System.out.println("Visitantes: " + cantidadRol[3]);
+                    
+                    if (vehiculosRegistrados > 0) {
+                        System.out.println("Total de horas: " + totalHoras);
+                        System.out.printf("Promedio de permanencia: %.2f horas\n", ((double) totalHoras / vehiculosRegistrados));
+                        System.out.printf("Mayor valor pagado: $%.2f\n", mayorValor);
+                        System.out.printf("Menor valor pagado: $%.2f\n", menorValor);
+                    } else {
+                        System.out.println("No existen vehiculos registrados.");
+                    }
+                    
+                    System.out.println("\nRESUMEN POR TIPO Y ROL");
+                    for (int i = 1; i <= 3; i++) {
+                        for (int j = 1; j <= 3; j++) {
+                            System.out.println("Tipo " + i + " - Rol " + j);
+                        }
+                    }
+                    System.out.println();
+                    break;
+                    
+                case 4:
+                    System.out.println("\nRECAUDACION");
+                    System.out.printf("Total recaudado: $%.2f\n\n", totalRecaudado);
+                    break;
+                    
+                case 5:
+                    System.out.println("\nSaliendo del sistema...");
+                    break;
+                    
+                default:
+                    System.out.println("\nOpcion no valida.\n");
+            }
+        } while (opcion != 5);
+        
+        System.out.println("Programa finalizado.");
+        teclado.close();
+    }
+}
