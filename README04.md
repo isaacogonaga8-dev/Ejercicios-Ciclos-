@@ -62,12 +62,17 @@ El ciclo debe repetirse mientras la opción sea distinta de 5, y cada operación
 
 
 4. Algoritmo
+
+   
 Inicializar saldo = 100, contadores y acumuladores en 0.
 Repetir:
+
 Mostrar el menú.
 
 Leer la opción.
+
 Según la opción:
+
 1: mostrar saldo.
 
 2: leer monto; si es ≤ 0, mostrar error; si no, sumar al saldo, actualizar acumulador y contador.
@@ -78,7 +83,9 @@ Según la opción:
 
 5: finalizar.
 Otro: mostrar mensaje de opción inválida.
+
 Repetir el paso 2 hasta que la opción sea 5.
+
 Mostrar resumen final.
 
 
