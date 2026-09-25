@@ -1,4 +1,3 @@
-```java
 import java.util.Scanner;
 
 public class Ejercicio7_ControlVentasCafeteria {
@@ -154,4 +153,3 @@ public class Ejercicio7_ControlVentasCafeteria {
         entrada.close();
     }
 }
-```
